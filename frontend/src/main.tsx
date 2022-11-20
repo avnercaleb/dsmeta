@@ -8,6 +8,8 @@ import Header from './components/header'
 import SalesCard from './components/sales-card'
 import './index.css'
 
+window.React = React
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <>
